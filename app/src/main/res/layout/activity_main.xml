@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context="com.example.android.interstatetrivia.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <!--4 questions in LinearLayout in series-->
+        <LinearLayout
+            style="@style/MatchWidthStyle"
+            android:orientation="vertical">
+
+            <!--Question 1, with EditText View -->
+            <LinearLayout style="@style/QuestionLayoutStyle"
+                android:layout_width="wrap_content">
+
+                <TextView
+                    style="@style/QuestionTextStyle"
+                    android:text="@string/Q1" />
+
+                <LinearLayout
+                    style="@style/MatchWidthStyle"
+                    android:orientation="vertical">
+
+                    <!--Question, drawn random from java script-->
+                    <TextView
+                        android:id="@+id/q1_question"
+                        style="@style/QuestionTextStyle" />
+
+                    <!--Answer Box-->
+                    <EditText
+                        android:id="@+id/q1_answer"
+                        style="@style/QuestionTextStyle"
+                        android:singleLine="true"
+                        android:hint=""/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--Question 2, with CheckBox View -->
+            <LinearLayout style="@style/QuestionLayoutStyle">
+
+                <TextView
+                    style="@style/QuestionTextStyle"
+                    android:text="@string/Q2" />
+
+                <LinearLayout
+                    style="@style/MatchWidthStyle"
+                    android:orientation="vertical">
+
+                    <!--Question, drawn random from java script-->
+                    <TextView
+                        android:id="@+id/q2_question"
+                        style="@style/QuestionTextStyle" />
+
+                    <!--Answer Box-->
+                    <CheckBox
+                        android:id="@+id/q2_checkBox1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <CheckBox
+                        android:id="@+id/q2_checkBox2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <CheckBox
+                        android:id="@+id/q2_checkBox3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <CheckBox
+                        android:id="@+id/q2_checkBox4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--Question 3, with radio button-->
+            <LinearLayout style="@style/QuestionLayoutStyle"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/QuestionTextStyle"
+                    android:text="@string/Q3" />
+
+                <LinearLayout
+                    style="@style/MatchWidthStyle"
+                    android:orientation="vertical">
+
+                    <!--Question, drawn random from java script-->
+                    <TextView
+                        android:id="@+id/q3_question"
+                        style="@style/QuestionTextStyle" />
+
+                    <!--Answer Box-->
+                    <RadioGroup style="@style/MatchWidthStyle"
+                        android:id="@+id/q3_buttonGroup">
+
+                        <RadioButton
+                            android:id="@+id/q3_button1"
+                            style="@style/QuestionTextStyle" />
+
+                        <RadioButton
+                            android:id="@+id/q3_button2"
+                            style="@style/QuestionTextStyle" />
+
+                        <RadioButton
+                            android:id="@+id/q3_button3"
+                            style="@style/QuestionTextStyle" />
+
+                        <RadioButton
+                            android:id="@+id/q3_button4"
+                            style="@style/QuestionTextStyle" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--Question 4, with radio button-->
+            <LinearLayout style="@style/QuestionLayoutStyle"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/QuestionTextStyle"
+                    android:text="@string/Q4" />
+
+                <LinearLayout
+                    style="@style/MatchWidthStyle"
+                    android:orientation="vertical">
+
+                    <!--Question, drawn random from java script-->
+                    <TextView
+                        android:id="@+id/q4_question"
+                        style="@style/QuestionTextStyle" />
+
+                    <!--Answer Box-->
+                    <RadioGroup style="@style/MatchWidthStyle"
+                        android:id="@+id/q4_buttonGroup">
+
+                        <RadioButton
+                            android:id="@+id/q4_button1"
+                            style="@style/QuestionTextStyle" />
+
+                        <RadioButton
+                            android:id="@+id/q4_button2"
+                            style="@style/QuestionTextStyle" />
+
+                        <RadioButton
+                            android:id="@+id/q4_button3"
+                            style="@style/QuestionTextStyle" />
+
+                        <RadioButton
+                            android:id="@+id/q4_button4"
+                            style="@style/QuestionTextStyle" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+    
+    <!--Bottom part for Submit and Reset Buttons-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <!--Submit Answers-->
+        <Button
+            android:id="@+id/submit_button"
+            style="@style/ButtonStyle"
+            android:text="@string/submit"
+            android:onClick="submitScore"/>
+
+        <!--Submit Answers-->
+        <Button
+            style="@style/ButtonStyle"
+            android:text="@string/reset"
+            android:onClick="resetQuestion"/>
+        
+    </LinearLayout>
+
+</LinearLayout>

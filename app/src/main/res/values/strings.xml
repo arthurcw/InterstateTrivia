@@ -1,0 +1,143 @@
+<resources>
+    <string name="app_name">Interstate Trivia</string>
+
+    <string name="Q1">1.</string>
+    <string name="Q2">2.</string>
+    <string name="Q3">3.</string>
+    <string name="Q4">4.</string>
+
+    <string name="submit">submit answers</string>
+    <string name="reset">reset questions</string>
+
+    <string name="toast_answer_all">Please answer all questions before hitting submit</string>
+    <string name="toast_correct_answers">You got %1$d correct answers</string>
+
+    <!--16 Questions-->
+    <string-array name="questionList">
+        <item>Name one state that is served by I-96</item>
+        <item>How many interstate highways are there in the contiguous US?</item>
+        <item>What is the highest speed limit on interstate highways (miles per hour)?</item>
+        <item>Interstate 90 and 94 run through which major city?</item>
+        <item>Which of the following interstate highway(s) do/does not exist?</item>
+        <item>Which interstate highways were newly-designated in 2017?</item>
+        <item>Which of the followings are correct about the numbering scheme of the
+            Interstate Highway System?</item>
+        <item>Which of the following two state capitals are not served by the
+            Interstate System?</item>
+        <item>Which is the longest interstate highway?</item>
+        <item>How long is the longest interstate highway (in miles)?</item>
+        <item>Which is the shortest interstate highway?</item>
+        <item>What is the length of the shortest interstate highway (in miles)?</item>
+        <item>Which president signed the National Interstate and Defense Highways
+            Act (84&#8208;627)?</item>
+        <item>Which states have the most interstate mileage?</item>
+        <item>Which states have the most interstate routes?</item>
+        <item>Which two-digit route number is shared between road segments at different parts of the country?</item>
+    </string-array>
+
+    <!--Options or hint for each question-->
+    <string-array name="hintQuestion1">
+        <item>In State Abbreviations</item> <!--Hint-->
+        <item>4096</item>                   <!--InputType.TYPE_TEXT_FLAG_CAP_CHARACTERS-->
+    </string-array>
+
+    <string-array name="hintQuestion2">
+        <item>&lt; 100</item>               <!--Hint-->
+        <item>2</item>                      <!--InputType.TYPE_CLASS_NUMBER-->
+    </string-array>
+
+    <string-array name="hintQuestion3">
+        <item>&lt; 100</item>               <!--Hint-->
+        <item>2</item>                      <!--InputType.TYPE_CLASS_NUMBER-->
+    </string-array>
+
+    <string-array name="hintQuestion4">
+        <item>Windy City</item>             <!--Hint-->
+        <item>8192</item>                   <!--InputType.TYPE_TEXT_FLAG_CAP_WORDS-->
+    </string-array>
+
+    <string-array name="answerQuestion5">
+        <item>I-40</item>
+        <item>I-50</item>
+        <item>I-60</item>
+        <item>I-70</item>
+    </string-array>
+
+    <string-array name="answerQuestion6">
+        <item>I-11</item>
+        <item>I-14</item>
+        <item>I-41</item>
+        <item>I-87</item>
+    </string-array>
+
+    <string-array name="answerQuestion7">
+        <item>Odd-numbered routes run N-S; even-numbered highways run E-W</item>
+        <item>Odd route numbers increase from W to E</item>
+        <item>Route numbers divisible by 5 are major border-to-border routes</item>
+        <item>3-digit route number is auxiliary route</item>
+    </string-array>
+
+    <string-array name="answerQuestion8">
+        <item>Dover, DE</item>
+        <item>Lansing, MI</item>
+        <item>Phoenix, AZ</item>
+        <item>Pierre, SD</item>
+    </string-array>
+
+    <string-array name="answerQuestion9">
+        <item>I-40</item>
+        <item>I-75</item>
+        <item>I-80</item>
+        <item>I-90</item>
+    </string-array>
+
+    <string-array name="answerQuestion10">
+        <item>1,020</item>
+        <item>2,020</item>
+        <item>3,020</item>
+        <item>4,020</item>
+    </string-array>
+
+    <string-array name="answerQuestion11">
+        <item>I-11</item>
+        <item>I-19</item>
+        <item>I-66</item>
+        <item>I-73</item>
+    </string-array>
+
+    <string-array name="answerQuestion12">
+        <item>1.0</item>
+        <item>1.5</item>
+        <item>2.0</item>
+        <item>2.5</item>
+    </string-array>
+
+    <string-array name="answerQuestion13">
+        <item>Herbert Hoover</item>
+        <item>Franklin D Roosevelt</item>
+        <item>Dwight D Eisenhower</item>
+        <item>John F Kennedy</item>
+    </string-array>
+
+    <string-array name="answerQuestion14">
+        <item>California</item>
+        <item>Hawaii</item>
+        <item>Ohio</item>
+        <item>Texas</item>
+    </string-array>
+
+    <string-array name="answerQuestion15">
+        <item>California</item>
+        <item>Maryland</item>
+        <item>New York</item>
+        <item>Washington</item>
+    </string-array>
+
+    <string-array name="answerQuestion16">
+        <item>I-66</item>
+        <item>I-77</item>
+        <item>I-88</item>
+        <item>I-99</item>
+    </string-array>
+
+</resources>
