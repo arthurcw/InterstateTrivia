@@ -1,6 +1,6 @@
 # InterstateTrivia
 Lesson 12 Quiz App
-arthurcwp6quq
+(arthurcwp6quq)
 
 Features
 - Each time the app starts or reset button is hit, 4 questions will be randomly drawn from a QuestionDB class storing 16 questions
