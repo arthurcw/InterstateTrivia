@@ -8,3 +8,5 @@ Features
 - Correct and wrong answers highlighted after “Submit Answer” button is clicked.
 - Cannot submit answers multiple times without resetting the questions
 - Will not reset activity when changing orientation
+
+![Alt text](/InterstateAppScreenCap.PNG)
